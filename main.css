@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    width: 90rem;
+    width: 100%;
     margin: auto;
 
     /* TODO: make 900 ?*/
@@ -27,6 +27,7 @@ body {
 
 nav {
     background-color: #2B57A1;  /* dark blue */
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +50,9 @@ nav {
 }
 
 header {
+
+
+    display: flex;
     color: #FFFFFF;  /* white */
     padding: 10px 30px 5px;
     background-color: #2B57A1;
@@ -56,7 +60,6 @@ header {
     height: 70%;
     /* dark blue */
 
-    display: flex;
     justify-content: space-around;
     align-items: center;
 }
